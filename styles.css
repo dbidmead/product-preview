@@ -161,3 +161,17 @@ button:focus {
     }
    
 }
+
+/* fix the attribution overlap noticed on iPhone 14 */
+
+@media (max-height: 850px) {
+    .attribution {
+        bottom: 5px;
+    }
+}
+
+@media (max-height: 650px) {
+    .attribution {
+        display: none;
+    }
+}
