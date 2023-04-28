@@ -21,6 +21,10 @@ body {
     width: 300px;
 }
 
+.mobile-img {
+    display: none;
+}
+
 .text-container {
     background-color: white;
     width: 300px;
@@ -113,4 +117,24 @@ button:focus {
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 375px) {
+    .card {
+        flex-direction: column;
+        height: 610px;
+    }
+
+    .main-img {
+        display: none;
+    }
+
+    .mobile-img {
+        display: flex;
+        width: 345px;
+    }
+
+    .text-container {
+        width: 345px;
+    }
 }
