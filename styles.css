@@ -119,9 +119,10 @@ button:focus {
     color: hsl(228, 45%, 44%); 
 }
 
-@media (max-width: 375px) {
+@media (max-width: 610px) {
     .card {
         flex-direction: column;
+        justify-content: space-around;
         height: 610px;
     }
 
@@ -132,9 +133,31 @@ button:focus {
     .mobile-img {
         display: flex;
         width: 345px;
+        height: 240px;
     }
 
     .text-container {
         width: 345px;
+        height: 370px;
     }
+
+    h1 {
+        font-size: 30px;
+        /* margin-top: -3px; */
+    }
+
+    p {
+        font-size: 14px;
+        margin-top: -5px;
+    }
+
+    button {
+        margin-bottom: 25px;
+        width: 295px;
+    }
+
+    .prices {
+        margin-top: -20px;
+    }
+   
 }
